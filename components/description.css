@@ -1,0 +1,98 @@
+.divider-image-container {
+  display: flex;
+  position: relative;
+}
+.divider-image-divider-image {
+  width: 100%;
+  object-fit: cover;
+}
+.divider-image-root-class-name {
+  width: 100%;
+}
+
+.description-description {
+  gap: 120px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.description-container {
+  width: 100%;
+  display: flex;
+  max-width: 1440px;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.description-description1 {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  max-width: 900px;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.description-content {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.description-paragraph {
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 60px;
+}
+.description-paragraph1 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  line-height: 60px;
+}
+.description-links {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+.description-arrow {
+  width: 25px;
+  object-fit: cover;
+}
+.description-link1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  border-top-width: 0px;
+}
+.description-arrow1 {
+  width: 25px;
+  object-fit: cover;
+}
+@media(max-width: 767px) {
+  .description-description {
+    gap: var(--dl-space-space-threeunits);
+    padding-bottom: 0px;
+  }
+  .description-description1 {
+    gap: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .description-content {
+    gap: var(--dl-space-space-unit);
+  }
+  .description-paragraph {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .description-paragraph1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

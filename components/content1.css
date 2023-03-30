@@ -1,0 +1,19 @@
+.content1-content {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.content1-caption {
+  font-style: normal;
+  font-weight: 600;
+}
+.content1-title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}

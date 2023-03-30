@@ -1,0 +1,11 @@
+.divider-image-container {
+  display: flex;
+  position: relative;
+}
+.divider-image-divider-image {
+  width: 100%;
+  object-fit: cover;
+}
+.divider-image-root-class-name {
+  width: 100%;
+}
